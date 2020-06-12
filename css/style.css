@@ -303,7 +303,7 @@ img {
 .img-contenedor {
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
     padding: 1rem 0;
 }
