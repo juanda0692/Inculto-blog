@@ -16,9 +16,14 @@
     <header class="site-header">
         <div class="barra-internas">
             <a href="index.html" class="logo-internas">
-                <img src="img/inculto.png" alt="Inculto Logo" />
+                <img loading="lazy" src="img/inculto.png" alt="Inculto Logo" />
             </a>
-            <nav class="nav">
+            <div id="wrapper-menu" class="wrapper-menu">
+                <div class="line-menu half start"></div>
+                <div class="line-menu"></div>
+                <div class="line-menu half end"></div>
+            </div>
+            <nav id="menu-nav" class="nav">
                 <a href="index.html">Inicio</a>
                 <a href="#">Artículos</a>
                 <a href="nosotros.html">Nosotros</a>
@@ -36,7 +41,7 @@
         </div>
         <div class="linea-separacion"></div>
         <div class="img-principal">
-            <img src="img/Gerrit-van-Honthorst-_De_koppelaarster.jpg" alt="Prostitución Medieval">
+            <img loading="lazy" src="img/Gerrit-van-Honthorst-_De_koppelaarster.jpg" alt="Prostitución Medieval">
             <div class="fuente-img">
                 <p>Fuente: Gerrit van Honthorst- "De koppelaarster (La alcahueta), (1625)". Wikimedia Commons</p>
             </div>
@@ -91,7 +96,7 @@
                 estas calles se les denominaría con el nombre de “Gropecunt Lane”. </p>
 
             <div class="img-secundariaIzq">
-                <img src="img/GrapeLane.jpg" alt="Gropecunt Lane">
+                <img loading="lazy" src="img/GrapeLane.jpg" alt="Gropecunt Lane">
                 <div class="fuente-img">
                     <p>Magpie Lane en Oxford, antes llamada Gropecunt Lane. Fuente: Wikimedia Commons</p>
                 </div>
@@ -123,7 +128,7 @@
                 entre los 18 y los 40 años, y de los cuales tres cuartas partes habita en la ciudad”. (Rossiaud, 1986:
                 55)</p>
             <div class="img-secundariaDerecha">
-                <img src="img/GrapeLaneMap.jpg" alt="Gropecunt Lane Map">
+                <img loading="lazy" src="img/GrapeLaneMap.jpg" alt="Gropecunt Lane Map">
                 <div class="fuente-img">
                     <p>Un mapa de Oxford hecho por John Speed en 1605 con Gropecunt Lane, por entonces Grope o Grape
                         Lane, resaltada en azul. Fuente: Wikimedia Commons</p>
@@ -202,6 +207,9 @@
         </div>
     </footer>
 
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
 
 
 </body>

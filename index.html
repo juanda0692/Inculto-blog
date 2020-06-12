@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inculto - Un blog criollo de arte e historia</title>
-    <link href="https://fonts.googleapis.com/css?family=Caveat+Brus|Special+Elite|Questrial|Yellowtail&display=swap"
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite|Questrial|Yellowtail&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
@@ -16,11 +16,16 @@
     <header>
         <div class="inicio">
             <h1 class="logo">
-                <img src="img/inculto.png" alt="Inculto Logo" />
+                <img loading="lazy" src="img/inculto.png" alt="Inculto Logo" />
             </h1>
         </div>
         <div class="barra">
-            <nav class="nav">
+            <div id="wrapper-menu" class="wrapper-menu">
+                <div class="line-menu half start"></div>
+                <div class="line-menu"></div>
+                <div class="line-menu half end"></div>
+            </div>
+            <nav id="menu-nav" class="nav">
                 <a href="index.html">Inicio</a>
                 <a href="#">Artículos</a>
                 <a href="nosotros.html">Nosotros</a>
@@ -35,7 +40,7 @@
             <article class="articulo centrar-texto">
                 <h2>Brevísima descripción de la Prostitución Medieval</h2>
                 <p>Escrito el: <span> 15/05/2020 </span> por: <span> Edogawa Ramplón </span> </p>
-                <img src="img/Gerrit-van-Honthorst-Merry Company.png" alt="Prostitución Edad Media"
+                <img loading="lazy" src="img/Gerrit-van-Honthorst-Merry Company.png" alt="Prostitución Edad Media"
                     class="img-contenedor">
                 <p>La actividad de la prostitución no fue irrelevante en la Edad Media, fue de hecho un fenómeno
                     esencial de dicha sociedad. Bajo el impulso de los eclesiásticos, se fue arraigando una mirada
@@ -53,7 +58,8 @@
             <article class="articulo centrar-texto">
                 <h2>Cantinflas y un día con el diablo</h2>
                 <p class="escitor-por">Escrito el: <span> 15/05/2020 </span> por: <span> Oh No! </span> </p>
-                <img src="img/Cantinflas1.png" alt="Cantinflas. Un día con el diablo" class="img-contenedor">
+                <img loading="lazy" src="img/Cantinflas1.png" alt="Cantinflas. Un día con el diablo"
+                    class="img-contenedor">
                 <p>En un día con el diablo vemos a Cantinflas con la definición fuerte del personaje del “pelado” que
                     durante años ha venido desarrollando. Con 12 películas entre pecho y espalda, para 1945 ya es un
                     veterano del cine Mejicano, suscitando admiración en un público sigue siendo estable y creciente ...
@@ -71,6 +77,11 @@
         </div>
     </footer>
 
+
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
 
 
 </body>
